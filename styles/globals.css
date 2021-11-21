@@ -1,16 +1,18 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap");
+
+html {
+  --main-dark-color: #312E81;
+  --main-lighter-color: #C7D2FE;
+  --tailwind-grey: #1F2937;
+  --tailwind-light-grey: #9CA3AF;
+  --backgroud-grey: #F3F4F6;
+  --tailwind-red: #EF4444;
+  --gradient: linear-gradient(90deg, rgba(236,72,153,1) 0%, rgba(99,102,241,1) 100%);
+  --gradient-vertical: linear-gradient(180deg, rgba(236,72,153,1) 0%, rgba(99,102,241,1) 100%);
+  --tailwind-pink: rgb(236,72,153);
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
 }
